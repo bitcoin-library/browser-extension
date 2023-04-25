@@ -1,0 +1,22 @@
+{
+  "name": "bitcoin-library-browser-extension",
+  "version": "0.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint:js && npm run lint:extension",
+    "lint:js": "eslint .",
+    "lint:extension": "web-ext lint -s ./src",
+    "start:firefox": "web-ext run -s ./src",
+    "build": "web-ext build -s ./src -a dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web-ext": "^7.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Bitcoin Library - Add Resources",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "The extension enables the description of educational resources published anywhere on the web.",
+    "description": "Description of the extension."
+  }
+}
