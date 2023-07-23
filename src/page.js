@@ -1,7 +1,7 @@
 
 /* global chrome */
 var attach = async () => {
-  const EDITOR_URL = 'http://localhost:5173/'
+  const EDITOR_URL = 'https://bitcoin-library.org/editor'
 
   const loadSavedOptions = new Promise((resolve, reject) => {
     chrome.storage.local.get({ defaultSchema: null }, (options) => {
